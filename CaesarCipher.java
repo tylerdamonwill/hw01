@@ -16,7 +16,7 @@ public class CaesarCipher{
 			encodeMessage(response);
 		}
 		else if (response.equals("decode")){
-			System.out.println("Enter the string to encode:");
+			System.out.println("Enter the string to decode:");
 			response = in.nextLine();
 			decodeMessage(response);
 		}
